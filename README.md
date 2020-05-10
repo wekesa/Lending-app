@@ -1,4 +1,4 @@
-## IOUs Resfull endpoints
+## IOUs Resful endpoints
 This is a simple springboot / Kotlin application that exposes a few endpoints
 * Create user `POST /api/user` 
 * Get users `GET /api/users` 
