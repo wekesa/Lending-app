@@ -20,3 +20,5 @@ Make sure you have the following
  * `Swagger UI` is also set,
 so that might be an easier option [http://localhost:8080/swagger-ui.html#/](http://localhost:8080/swagger-ui.html#/)
 
+### Note
+The application is using in-mem DB `h2` 
