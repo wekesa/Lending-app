@@ -15,7 +15,8 @@ Make sure you have the following
 * You can also run `docker-compose build` then `docker-compose up`
 
 ### Testing
-* Navigate to [ocalhost:8080](localhost:8080) to check whether the application is running
-* You can test using any client application like `postman` or `curl` but `Swagger UI` is also set
+* Navigate to [http:localhost:8080](localhost:8080) to check whether the application is running
+* You can test using any client application like `postman` or `curl` 
+ * `Swagger UI` is also set,
 so that might be an easier option [http://localhost:8080/swagger-ui.html#/](http://localhost:8080/swagger-ui.html#/)
 
