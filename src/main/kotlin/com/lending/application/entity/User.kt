@@ -1,11 +1,7 @@
 package com.lending.application.entity
 
-import jdk.internal.jline.internal.Nullable
 import java.time.LocalDateTime
-import javax.persistence.Entity
-import javax.persistence.GeneratedValue
-import javax.persistence.GenerationType
-import javax.persistence.Id
+import javax.persistence.*
 import javax.validation.constraints.NotBlank
 
 @Entity
@@ -15,7 +11,10 @@ data class User(
     var id: Long? = 0,
     @get: NotBlank
     val firstname: String,
-    val lastname: String,
-    var description: String? = null,
-    var addedAt: LocalDateTime = LocalDateTime.now()
+
+    val lastname: String? = null,
+
+    val description: String? = null,
+
+    val addedAt: LocalDateTime = LocalDateTime.now()
 )

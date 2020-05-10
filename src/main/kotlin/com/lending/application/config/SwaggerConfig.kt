@@ -1,5 +1,6 @@
 package com.lending.application.config
 
+import com.google.common.base.Predicates
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.info.BuildProperties
 import org.springframework.boot.info.GitProperties
@@ -36,6 +37,7 @@ class SwaggerConfig {
             .apiInfo(apiInfo(version))
             .select()
             .apis(RequestHandlerSelectors.any())
+            .paths(Predicates.not(PathSelectors.regex("/error")))
             .paths(PathSelectors.any())
             .build()
             .useDefaultResponseMessages(false)
