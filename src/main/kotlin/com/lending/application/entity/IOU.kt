@@ -1,6 +1,5 @@
 package com.lending.application.entity
 
-//import org.springframework.data.rest.core.annotation.RestResource
 import java.math.BigDecimal
 import java.time.LocalDateTime
 import javax.persistence.*
